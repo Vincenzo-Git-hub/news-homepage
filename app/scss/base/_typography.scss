@@ -42,6 +42,11 @@ ul {
   margin-block: 1.5em 3em;
   letter-spacing: 2px;
   font-weight: 600;
+  transition: all 0.4s ease-in-out;
+}
+
+.new__btn:hover {
+  background-color: var(--Very-dark-blue);
 }
 
 .sidebar {
@@ -51,6 +56,22 @@ ul {
   }
 
   &__subtitle {
+    cursor: pointer;
     color: var(--Off-white);
+    transition: all 0.3s ease-in-out;
+  }
+
+  &__subtitle:hover {
+    color: var(--Soft-orange);
+  }
+}
+
+.card {
+  &__subtitle {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  &__subtitle:hover {
+    color: var(--Soft-red);
   }
 }
