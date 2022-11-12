@@ -22,6 +22,7 @@ h4 {
 
 h1 {
   font-weight: var(--font-weight-heading);
+  font-size: var(--font-size-title);
 }
 
 a {
@@ -31,4 +32,25 @@ a {
 
 ul {
   list-style: none;
+}
+
+.new__btn {
+  color: var(--Off-white);
+  background-color: var(--Soft-red);
+  padding: 0.75em 1.5em;
+  width: fit-content;
+  margin-block: 1.5em 3em;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.sidebar {
+  &__title {
+    color: var(--Soft-orange);
+    font-size: var(--font-size-side-title);
+  }
+
+  &__subtitle {
+    color: var(--Off-white);
+  }
 }

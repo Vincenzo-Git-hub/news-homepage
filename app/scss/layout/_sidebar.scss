@@ -1,0 +1,13 @@
+.sidebar {
+  background-color: var(--Very-dark-blue);
+  padding: 1.125em;
+  margin-bottom: 4em;
+
+  &__line {
+    border: 1px solid var(--Dark-grayish-blue);
+  }
+}
+
+.sidebar > * + * {
+  margin-top: 2em;
+}
