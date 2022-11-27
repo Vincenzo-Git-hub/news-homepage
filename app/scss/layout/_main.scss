@@ -1,19 +1,6 @@
 @use "../util";
 
 .new {
-  &__img {
-    display: grid;
-    grid-template-rows: 300px;
-    margin-bottom: 1em;
-    background-image: url("../../../assets/images/image-web-3-mobile.jpg");
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    @media (min-width: 60em) {
-      background-image: url(../../../assets/images/image-web-3-desktop.jpg);
-    }
-  }
-
   @media (min-width: 45em) {
     &--grid {
       display: grid;
@@ -23,8 +10,7 @@
   }
   @media (min-width: 60em) {
     &--grid {
-      grid-template-columns: 1fr;
-      grid-template-rows: 22.5rem;
+      grid-template-columns: auto;
     }
   }
 }
